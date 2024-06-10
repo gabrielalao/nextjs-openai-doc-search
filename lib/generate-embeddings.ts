@@ -315,7 +315,6 @@ async function generateEmbeddings() {
     try {
       const { checksum, meta, sections } = await embeddingSource.load()
 
-      console.log("line 318:", source, path, type, parentPath);
       // Check for existing page in DB and compare checksums
       const { error: fetchPageError, data: existingPage } = await supabaseClient
         .from('nods_page')
@@ -323,8 +322,7 @@ async function generateEmbeddings() {
         .filter('path', 'eq', path)
         .limit(1)
         .maybeSingle()
-      
-      console.log("line 327:", fetchPageError, existingPage);
+
       if (fetchPageError) {
         throw fetchPageError
       }
@@ -386,13 +384,12 @@ async function generateEmbeddings() {
         .from('nods_page')
         .select()
         .filter('path', 'eq', parentPath)
+        .limit(1)
         .maybeSingle()
 
       if (fetchParentPageError) {
         throw fetchParentPageError
       }
-
-      console.log("here worked correctly.")
 
       // Create/update page record. Intentionally clear checksum until we
       // have successfully generated all page sections.
@@ -413,7 +410,6 @@ async function generateEmbeddings() {
         .limit(1)
         .single()
 
-      console.log("here not working correctly.")
       if (upsertPageError) {
         throw upsertPageError
       }
