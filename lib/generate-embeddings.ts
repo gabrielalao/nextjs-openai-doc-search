@@ -315,6 +315,7 @@ async function generateEmbeddings() {
     try {
       const { checksum, meta, sections } = await embeddingSource.load()
 
+      console.log("embeddingSource.load()", checksum, meta);
       // Check for existing page in DB and compare checksums
       const { error: fetchPageError, data: existingPage } = await supabaseClient
         .from('nods_page')
