@@ -386,7 +386,6 @@ async function generateEmbeddings() {
         .from('nods_page')
         .select()
         .filter('path', 'eq', parentPath)
-        .limit(1)
         .maybeSingle()
 
       if (fetchParentPageError) {
