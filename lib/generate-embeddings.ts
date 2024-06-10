@@ -323,7 +323,8 @@ async function generateEmbeddings() {
         .filter('path', 'eq', path)
         .limit(1)
         .maybeSingle()
-
+      
+      console.log("line 327:", fetchPageError, existingPage);
       if (fetchPageError) {
         throw fetchPageError
       }
