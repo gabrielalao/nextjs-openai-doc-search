@@ -1,0 +1,247 @@
+{
+    "path": "pages",
+    "name": "pages",
+    "children": [
+        {
+            "path": "pages/api",
+            "name": "api",
+            "children": [],
+            "size": 0,
+            "type": "directory"
+        },
+        {
+            "path": "pages/docs",
+            "name": "docs",
+            "children": [
+                {
+                    "path": "pages/docs/product-guides",
+                    "name": "product-guides",
+                    "children": [
+                        {
+                            "path": "pages/docs/product-guides/getting-started",
+                            "name": "getting-started",
+                            "children": [
+                                {
+                                    "path": "pages/docs/product-guides/getting-started/create-your-first-recipe.mdx",
+                                    "name": "create-your-first-recipe.mdx",
+                                    "meta": {},
+                                    "title": "Create your first recipe",
+                                    "url": "/docs\\product-guides\\getting-started\\create-your-first-recipe"
+                                },
+                                {
+                                    "path": "pages/docs/product-guides/getting-started/inviting-teammates.mdx",
+                                    "name": "inviting-teammates.mdx",
+                                    "meta": {},
+                                    "title": "Inviting teammates",
+                                    "url": "/docs\\product-guides\\getting-started\\inviting-teammates"
+                                },
+                                {
+                                    "path": "pages/docs/product-guides/getting-started/launch-your-first-workspace.mdx",
+                                    "name": "launch-your-first-workspace.mdx",
+                                    "meta": {},
+                                    "title": "Launch your first workspace",
+                                    "url": "/docs\\product-guides\\getting-started\\launch-your-first-workspace"
+                                },
+                                {
+                                    "path": "pages/docs/product-guides/getting-started/README.mdx",
+                                    "name": "README.mdx",
+                                    "meta": {},
+                                    "title": "README",
+                                    "url": "/docs\\product-guides\\getting-started\\README"
+                                }
+                            ],
+                            "size": null,
+                            "type": "directory"
+                        },
+                        {
+                            "path": "pages/docs/product-guides/how-tos",
+                            "name": "how-tos",
+                            "children": [
+                                {
+                                    "path": "pages/docs/product-guides/how-tos/connect-to-an-rds-instance.mdx",
+                                    "name": "connect-to-an-rds-instance.mdx",
+                                    "meta": {},
+                                    "title": "Connect to an rds instance",
+                                    "url": "/docs\\product-guides\\how-tos\\connect-to-an-rds-instance"
+                                },
+                                {
+                                    "path": "pages/docs/product-guides/how-tos/README.mdx",
+                                    "name": "README.mdx",
+                                    "meta": {},
+                                    "title": "README",
+                                    "url": "/docs\\product-guides\\how-tos\\README"
+                                }
+                            ],
+                            "size": null,
+                            "type": "directory"
+                        },
+                        {
+                            "path": "pages/docs/product-guides/launch-and-connect-to-a-workspace.mdx",
+                            "name": "launch-and-connect-to-a-workspace.mdx",
+                            "meta": {},
+                            "title": "Launch and connect to a workspace",
+                            "url": "/docs\\product-guides\\launch-and-connect-to-a-workspace"
+                        },
+                        {
+                            "path": "pages/docs/product-guides/managing-recipes.mdx",
+                            "name": "managing-recipes.mdx",
+                            "meta": {},
+                            "title": "Managing recipes",
+                            "url": "/docs\\product-guides\\managing-recipes"
+                        },
+                        {
+                            "path": "pages/docs/product-guides/managing-your-workspaces.mdx",
+                            "name": "managing-your-workspaces.mdx",
+                            "meta": {},
+                            "title": "Managing your workspaces",
+                            "url": "/docs\\product-guides\\managing-your-workspaces"
+                        },
+                        {
+                            "path": "pages/docs/product-guides/settings",
+                            "name": "settings",
+                            "children": [
+                                {
+                                    "path": "pages/docs/product-guides/settings/README.mdx",
+                                    "name": "README.mdx",
+                                    "meta": {},
+                                    "title": "README",
+                                    "url": "/docs\\product-guides\\settings\\README"
+                                },
+                                {
+                                    "path": "pages/docs/product-guides/settings/team-settings.mdx",
+                                    "name": "team-settings.mdx",
+                                    "meta": {},
+                                    "title": "Team settings",
+                                    "url": "/docs\\product-guides\\settings\\team-settings"
+                                },
+                                {
+                                    "path": "pages/docs/product-guides/settings/user-settings.mdx",
+                                    "name": "user-settings.mdx",
+                                    "meta": {},
+                                    "title": "User settings",
+                                    "url": "/docs\\product-guides\\settings\\user-settings"
+                                }
+                            ],
+                            "size": null,
+                            "type": "directory"
+                        },
+                        {
+                            "path": "pages/docs/product-guides/using-a-workspace.mdx",
+                            "name": "using-a-workspace.mdx",
+                            "meta": {},
+                            "title": "Using a workspace",
+                            "url": "/docs\\product-guides\\using-a-workspace"
+                        },
+                        {
+                            "path": "pages/docs/product-guides/writing-recipes.mdx",
+                            "name": "writing-recipes.mdx",
+                            "meta": {},
+                            "title": "Writing recipes",
+                            "url": "/docs\\product-guides\\writing-recipes"
+                        }
+                    ],
+                    "size": null,
+                    "type": "directory"
+                },
+                {
+                    "path": "pages/docs/README.mdx",
+                    "name": "README.mdx",
+                    "meta": {},
+                    "title": "README",
+                    "url": "/docs\\README"
+                },
+                {
+                    "path": "pages/docs/references",
+                    "name": "references",
+                    "children": [
+                        {
+                            "path": "pages/docs/references/cli-installation.mdx",
+                            "name": "cli-installation.mdx",
+                            "meta": {},
+                            "title": "Cli installation",
+                            "url": "/docs\\references\\cli-installation"
+                        },
+                        {
+                            "path": "pages/docs/references/recipe-syntax.mdx",
+                            "name": "recipe-syntax.mdx",
+                            "meta": {},
+                            "title": "Recipe syntax",
+                            "url": "/docs\\references\\recipe-syntax"
+                        }
+                    ],
+                    "size": null,
+                    "type": "directory"
+                },
+                {
+                    "path": "pages/docs/the-basics",
+                    "name": "the-basics",
+                    "children": [
+                        {
+                            "path": "pages/docs/the-basics/terminology.mdx",
+                            "name": "terminology.mdx",
+                            "meta": {},
+                            "title": "Terminology",
+                            "url": "/docs\\the-basics\\terminology"
+                        },
+                        {
+                            "path": "pages/docs/the-basics/use-cases.mdx",
+                            "name": "use-cases.mdx",
+                            "meta": {},
+                            "title": "Use cases",
+                            "url": "/docs\\the-basics\\use-cases"
+                        }
+                    ],
+                    "size": null,
+                    "type": "directory"
+                },
+                {
+                    "path": "pages/docs/troubleshooting",
+                    "name": "troubleshooting",
+                    "children": [
+                        {
+                            "path": "pages/docs/troubleshooting/command-line.mdx",
+                            "name": "command-line.mdx",
+                            "meta": {},
+                            "title": "Command line",
+                            "url": "/docs\\troubleshooting\\command-line"
+                        },
+                        {
+                            "path": "pages/docs/troubleshooting/recipes.mdx",
+                            "name": "recipes.mdx",
+                            "meta": {},
+                            "title": "Recipes",
+                            "url": "/docs\\troubleshooting\\recipes"
+                        },
+                        {
+                            "path": "pages/docs/troubleshooting/vs-code.mdx",
+                            "name": "vs-code.mdx",
+                            "meta": {},
+                            "title": "Vs code",
+                            "url": "/docs\\troubleshooting\\vs-code"
+                        },
+                        {
+                            "path": "pages/docs/troubleshooting/web-console.mdx",
+                            "name": "web-console.mdx",
+                            "meta": {},
+                            "title": "Web console",
+                            "url": "/docs\\troubleshooting\\web-console"
+                        },
+                        {
+                            "path": "pages/docs/troubleshooting/workspaces.mdx",
+                            "name": "workspaces.mdx",
+                            "meta": {},
+                            "title": "Workspaces",
+                            "url": "/docs\\troubleshooting\\workspaces"
+                        }
+                    ],
+                    "size": null,
+                    "type": "directory"
+                }
+            ],
+            "size": null,
+            "type": "directory"
+        }
+    ],
+    "size": null,
+    "type": "directory"
+}
